@@ -1,0 +1,13 @@
+data/
+artifacts/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.pt
+*.h5
+*.mat
+*.nc
+*.npz
+*.log
