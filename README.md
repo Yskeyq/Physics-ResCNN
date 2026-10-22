@@ -4,8 +4,10 @@ Software for **Surrogate-Assisted Physics-Guided Retrieval of Range-Varying
 Evaporation Duct Height From Radar Sea Clutter** (Yi Yan et al.).
 
 This is release 1.2.0 associated with the first manuscript revision.
-The manuscript is under review; no acceptance or publication DOI is implied.
-The repository URL and separate dataset accession have not yet been assigned.
+The associated manuscript is under review.
+
+- Code: [GitHub repository](https://github.com/Yskeyq/Physics-ResCNN)
+- Data and model checkpoints: [IEEE DataPort dataset](https://doi.org/10.21227/4k9h-8z46)
 
 ## What the model does
 
@@ -27,9 +29,12 @@ not select a CUDA wheel index. No dependency source is bundled.
 
 ## Separate data and model files
 
-The planned data deposit is an **IEEE DataPort Standard Dataset**. Its DOI is
-pending. Standard-file access may require an IEEE DataPort subscription; do not
-interpret this code repository as providing unrestricted access to those files.
+The data and model checkpoints are deposited on **IEEE DataPort** as
+[Physics-ResCNN: A Synthetic Radar Sea-Clutter Dataset for Range-Varying
+Evaporation Duct Height Retrieval](https://doi.org/10.21227/4k9h-8z46).
+The deposit is a **Standard Dataset**; downloading its files may require an IEEE
+DataPort subscription. This code repository does not provide unrestricted
+download access to the separately deposited data and checkpoints.
 
 The root MIT license covers the software, not the separately supplied data or
 checkpoints. Own data/weight contributions use CC BY 3.0 US, with underlying
@@ -161,6 +166,11 @@ loss are different controls; see the data dictionary. The latter trainer is
 ## License and citation
 
 Original software: MIT, see `LICENSE`. Data, checkpoints and third-party material:
-separate terms, see `NOTICE.md` and the deposit. Please cite the manuscript and
-the dataset when its DOI is available. `CITATION.cff` identifies the work without
-inventing an article DOI or claiming acceptance.
+separate terms, see `NOTICE.md` and the deposit. Own data/weight contributions use
+CC BY 3.0 US, with underlying third-party licenses and attribution requirements
+retained.
+
+Please cite this software repository and the
+[dataset, DOI: 10.21227/4k9h-8z46](https://doi.org/10.21227/4k9h-8z46).
+`CITATION.cff` provides software citation metadata. The associated manuscript is
+under review; the dataset DOI above identifies the data deposit, not the article.
