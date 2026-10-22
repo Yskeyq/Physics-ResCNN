@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and, once deposited, its dataset."
+type: software
+title: "Physics-ResCNN: Surrogate-Assisted Retrieval of Range-Varying Evaporation Duct Height"
+version: "1.2.0"
+authors:
+  - family-names: Yan
+    given-names: Yi
+  - family-names: Li
+    given-names: Jiangting
+  - family-names: Guo
+    given-names: Lixin
+  - family-names: Wang
+    given-names: Yuxuan
+  - family-names: Sun
+    given-names: Shuji
+  - family-names: Xu
+    given-names: Tong
+  - family-names: Ding
+    given-names: Zonghua
+license: MIT
